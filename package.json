@@ -1,0 +1,20 @@
+{
+  "name": "playwright_framework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pageObjects-dev": "npx playwright test orgadmSearch.spec.js --headed",
+    "pageObjects-stage": "npx playwright test orgadmSearch.spec.js --headed --debug --project=dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.45.2",
+    "@types/node": "^20.14.9",
+    "allure-commandline": "^2.29.0",
+    "allure-playwright": "^3.0.0-beta.6",
+    "dotenv": "^16.4.5"
+  }
+}
