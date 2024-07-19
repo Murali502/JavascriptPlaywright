@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "pageObjects-dev": "npx playwright test orgadmSearch.spec.js --headed",
+    "pageObjects-dev": "npx playwright test orgadmSearch.spec.js",
     "pageObjects-stage": "npx playwright test orgadmSearch.spec.js --headed --debug --project=dev"
   },
   "keywords": [],
